@@ -1,0 +1,45 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "asaworkspacecek6lnb"
+		},
+		"asacosmosdb01_connectionString": {
+			"value": ""
+		},
+		"asadatalakecek6lnb_accountKey": {
+			"value": ""
+		},
+		"asastorecek6lnb_connectionString": {
+			"value": ""
+		},
+		"asaworkspacecek6lnb-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"sqlpool01_connectionString": {
+			"value": ""
+		},
+		"sqlpool01_highperf_connectionString": {
+			"value": ""
+		},
+		"sqlpool01_import01_connectionString": {
+			"value": ""
+		},
+		"sqlpool01_workload01_connectionString": {
+			"value": ""
+		},
+		"sqlpool01_workload02_connectionString": {
+			"value": ""
+		},
+		"asadatalakecek6lnb_properties_typeProperties_url": {
+			"value": "https://asadatalakecek6lnb.dfs.core.windows.net"
+		},
+		"asakeyvaultcek6lnb_properties_typeProperties_baseUrl": {
+			"value": "https://asakeyvaultcek6lnb.vault.azure.net/"
+		},
+		"asaworkspacecek6lnb-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://asadatalakecek6lnb.dfs.core.windows.net"
+		}
+	}
+}
