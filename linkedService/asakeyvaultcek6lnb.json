@@ -1,0 +1,11 @@
+{
+	"name": "asakeyvaultcek6lnb",
+	"type": "Microsoft.Synapse/workspaces/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://asakeyvaultcek6lnb.vault.azure.net/"
+		}
+	}
+}

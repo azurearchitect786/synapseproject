@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 5",
+	"properties": {
+		"content": {
+			"query": "SELECT TOP (100) [UserId]\n,[ProductId]\n,[ItemsPurchasedLast12Months]\n,[IsTopProduct]\n,[IsPreferredProduct]\n FROM [wwi].[UserTopProductPurchases]",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "SQLPool01",
+				"poolName": "SQLPool01"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
